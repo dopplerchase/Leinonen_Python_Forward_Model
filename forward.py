@@ -1,3 +1,7 @@
+import pandas as pd 
+import numpy as np 
+import scipy.interpolate
+
 class forward_Z():
     """ 
     Class to forward model reflectivity using Leinonen and Szrymer 2015. 
