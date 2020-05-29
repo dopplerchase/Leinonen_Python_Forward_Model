@@ -1,4 +1,1 @@
-# pyCFAD
-
-This code is a simple script to create a CFAD using numpy's histogram2d function
-
+This code is to provide a class and methods to forward model Z from a measured PSD. The scattering results are from DDA and are the output of Jussi Leinonen's 2015 paper (Leionen and Szyrmer 2015: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015EA000102). This paper was chosen because it provides several different estimates of particle backscatter cross-sections with various degrees of riming. 
