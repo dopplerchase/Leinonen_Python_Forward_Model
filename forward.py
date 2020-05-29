@@ -57,7 +57,7 @@ class forward_Z():
         """
         #load text file
         header = ['rimemodel','lwp','mass','Dmax','rad_gy','axis_ratio','rimed_fraction','Xchh','Xvv','Kuchh','Kucvv','Kachh','Kacvv','Wchh','Wcvv']
-        leinonen = pd.read_csv('/data/gpm/a/randyjc2/Leinonen_2015_rimed.tex',delim_whitespace=True,names=header,header=None,index_col=None)
+        leinonen = pd.read_csv('./ess238-sup-0002-supinfo.tex',delim_whitespace=True,names=header,header=None,index_col=None)
         
         #split methods 
         leinonen_A = leinonen.where(leinonen.rimemodel == 'A')
